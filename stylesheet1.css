@@ -1,0 +1,95 @@
+.navbar {
+  width: 100%;
+  height: 107px;
+  background-color: #ff9800;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  align-items: center;
+color: #ddd;
+  background-color: #ff9800;
+  z-index: 999;
+  font-size: 30px;
+  padding: 10px;
+}
+.navbar .navbar-sub{
+  padding-top: 26px;
+}
+.navbar .img {
+  float: left;
+  background-color: #ff9800;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #555;
+}
+
+
+body,
+html {
+  height: 100%;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  width: 50%;
+margin-top: 40px;
+  background-image: url("Rectangle\ 26.png");
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Control the height of the image */
+  min-height: 470px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity:1px;
+}
